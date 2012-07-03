@@ -4,4 +4,5 @@
   :license {:name "ISC License"
             :url "http://www.opensource.org/licenses/ISC"
             :distribution :repo}
+  :aot [#"com.buglabs.clojure.services.*"]
   :dependencies [[org.clojure/clojure "1.3.0"]])
